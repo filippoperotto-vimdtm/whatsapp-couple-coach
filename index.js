@@ -105,6 +105,7 @@ Rispondi sempre in italiano, nella stessa forma (tu/voi) che usano loro, e firma
 ],
 
       max_tokens: 300,
+      temperature: 0.6,
     });
 
     const reply = completion.choices[0].message.content.trim();
